@@ -32,6 +32,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-FK62sa+lcDz2XfyoEdxzR9V3OzvQbcgJ9Z2vE2nNUCmUcF4x5V0c3bsrdpyV8yV4a6g9zRCmS+6smFJdk6RC2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- make sure to use absolite paths /css not css/ -->
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>

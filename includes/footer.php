@@ -1,7 +1,7 @@
 <footer>
   <!-- Row 2: Logo, Social Icons, Links -->
   <div class="contact-middle">
-    <div class="footer-logo">
+    <div class="/footer-logo">
       <!-- Placeholder SVG Logo -->
       <img class="footer-logo" src="./images/index/logo.jpg"/>
     </div>
@@ -23,11 +23,11 @@
     </div>
 
     <div class="footer-links">
-      <a href="/biuro-tlumaczen-bydgoszcz.php">Biuro tłumaczeń Bydgoszcz</a>
-      <a href="/tlumaczenia-symultaniczne-poznan.php">Tłumaczenie Symultaniczne Poznań</a>
-      <a href="/tlumaczenia-symultaniczne.php">Tłumaczenie symultaniczne</a>
-      <a href="/biuro-tlumaczen-wroclaw.php">Biuro tłumaczeń Wrocław</a>
-      <a href="/biuro-tlumaczen-szczecin.php">Biuro tłumaczeń Szczecin</a>
+      <a href="/biuro-tlumaczen-bydgoszcz/">Biuro tłumaczeń Bydgoszcz</a>
+      <a href="/tlumaczenia-symultaniczne-poznan/">Tłumaczenie Symultaniczne Poznań</a>
+      <a href="/tlumaczenia-symultaniczne/">Tłumaczenie symultaniczne</a>
+      <a href="/biuro-tlumaczen-wroclaw/">Biuro tłumaczeń Wrocław</a>
+      <a href="/biuro-tlumaczen-szczecin/">Biuro tłumaczeń Szczecin</a>
     </div>
   </div>
 
@@ -40,7 +40,7 @@
   </div>
 </footer>
 
-<script src="scripts/modules/index.js"></script>
+<script src="/scripts/modules/index.js"></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
