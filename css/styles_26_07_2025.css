@@ -1,0 +1,737 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 
+**Note on z-indexes for site header
+
+Default side-header 10 otherewise it disapperas probaly because of position absolute i dont know whats covering it maybe picture element
+Default main-nav for small screens is -10
+Default site-header__nam-toggle is 20 bacause it also has positbin absolute
+
+min 800 
+man-nav is 20 
+
+**Note on opacity and display
+
+main nav 
+For small screens: 
+
+Default is 0 
+display is not set
+
+when .showItem is added 
+opacity is turn to 1
+
+For min 800 
+main nav gets opacity 1; 
+
+*/
+
+body {
+  font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem; /* equals 16px */
+  /* line-height: 1.6; */
+  color: #111;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 1rem; 16px */
+  /* line-height: 1.7; Slightly taller for more spacingv */
+  letter-spacing: 0.2;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 65ch;
+  color: #333;
+  font-weight: 400; /* Regular weight for readability */
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 530px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
+
+.wrapper {
+  padding: 1px 18px; /* for some reason i got to put 1, otherwise the padding set on the site-header does not work, the 1px gives it something to be propped against */
+  max-width: 1236px;
+  /* we want center location for content of the wrapper */
+  margin: 0 auto;
+  /* background-color: green; */
+  overflow: hidden;
+}
+
+.wrapper--medium {
+  max-width: 976px;
+  margin: 0 auto;
+}
+
+.wrapper .wrapper--medium {
+  padding: 0;
+}
+
+.page-section {
+  padding: 4.5rem 0;
+  /* border: 1px solid red; */
+}
+
+.page-section--blue {
+  background-color: #003d80;
+}
+
+/* .center-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  border: 1px solid blue;
+} */
+
+/* hero section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  /* padding: 100px 20px; /* Add space if this is a hero section */
+  text-align: center;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.hero picture,
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.headline {
+  /* font-weight: 300;
+  font-size: 1.9rem; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75rem; /* ~36px */
+  font-weight: 300;
+  line-height: 1.75rem;
+  color: #333;
+}
+
+.headline--light {
+  /* font-size: 1.25rem;
+  font-weight: 300; 
+  color: #333; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem; /* ~18px */
+  color: #444;
+  line-height: 1.2;
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.headline--b-margin {
+  margin-bottom: 2rem;
+}
+
+.headline--b-margin-small {
+  margin-bottom: 1rem;
+}
+
+.headline--blue {
+  color: #003d80;
+}
+
+.headline--small {
+  font-size: 1.2rem;
+}
+
+.headline--narrow {
+  /* width: 500px; */
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline--centered {
+  text-align: center;
+}
+
+.headline--b-margin--small {
+  margin-bottom: 0.5em;
+}
+
+.headline--b-margin-large {
+  margin-bottom: 1.6em;
+}
+
+.stong {
+  font-weight: bold;
+}
+
+@media (min-width: 530px) {
+  .headline {
+    font-weight: 700;
+    font-size: 2.65rem;
+    margin-bottom: 1rem;
+  }
+
+  .headline h1 {
+    font-size: 2rem; /* 40px */
+    /* color: #0056b3; */
+  }
+
+  .headline h3 {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 300;
+    color: #444;
+    margin-top: 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headline--light {
+    font-size: 1.125;
+  }
+
+  .headline--small {
+    font-size: 1.6rem;
+  }
+
+  .headline--medium {
+    font-size: 1.6rem;
+  }
+}
+
+/* Large screens and up (from 1200px) */
+@media (min-width: 1200px) {
+  .headline h3 {
+    font-size: 1.6rem; /* 20px */
+  }
+
+  .headline h1 {
+    font-size: 3.5rem;
+    /* 40px */
+    /* color: #0056b3; */
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .headline h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/* HERO */
+
+.hero-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  color: #e0e0e0; /* Slight contrast for subtitle */
+}
+
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 100;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #f0f0f0;
+  display: none;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: #0056b3; /* professional navy-blue */
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #003d80; /* slightly darker on hover */
+  transform: scale(1.03);
+}
+
+@media (min-width: 338px) {
+  .hero-description {
+    display: block;
+  }
+}
+
+@media (min-width: 530px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero-title {
+    font-size: 4.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+}
+
+/* Site header */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* position: absolute has caused strange stacking it disappears, maybe picture alament hid it */
+  padding: 1rem 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .site-header__logo {
+  position: absolute;
+  z-index: 15;
+} */
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav li {
+  /* this is so that the site-header stays narrow and is not expanded by block lis */
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.main-nav li a {
+  font-weight: 100;
+}
+
+.logo {
+  display: none; /* For stylistic reason show only after 450px */
+  font-size: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 450px) {
+  .logo {
+    display: block;
+  }
+}
+
+.logo.hideItem {
+  display: none;
+}
+
+.main-nav {
+  /* display: none; */
+  /* instead of display none, we want to add a transition. To do that we need opacity 0 and hide it 
+    so that it is not clicked by accident, so z-index = -10; */
+  /* this for when menu is visible after toggling the btn */
+  /* padding-top: 30px; */
+  position: relative; /* otheriwse browser wont ackgnoledge our z-index */
+  z-index: -10;
+  transform: scale(1.2);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* Main nav and telephone visible for toggle of site-header__nav_toggle */
+.telephone.showItem {
+  display: inline-block;
+}
+
+.main-nav.showItem {
+  /* display: block; */
+  opacity: 1;
+  transform: scale(1);
+}
+
+.main-nav.showItem li {
+  display: block;
+  padding: 10px;
+}
+
+.site-header.showItem {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.site-header.showItem .main-nav {
+  margin: 0 auto;
+}
+
+.site-header__menu-icon {
+  position: absolute;
+  z-index: 20;
+  top: 2rem;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 19px;
+}
+
+.site-header__menu-icon::before {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transition: transform 0.3s ease-out;
+}
+
+.site-header__menu-icon::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: 0 100%;
+  transition: transform 0.3s ease-out;
+}
+
+.site-header__menu-icon__middle {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  transform-origin: 0 50%;
+  transition: all 0.3s ease-out;
+}
+
+.site-header__menu-icon--close-x::before {
+  transform: rotate(45deg) scaleX(1.25);
+}
+
+.site-header__menu-icon--close-x::after {
+  transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+}
+
+.site-header__menu-icon--close-x .site-header__menu-icon__middle {
+  opacity: 0;
+  transform: scaleX(0) 0.3s ease-out;
+}
+
+@media (min-width: 800px) {
+  .site-header__menu_content {
+    display: block;
+  }
+
+  .main-nav {
+    /* reset the padding-top: 30px */
+    position: relative;
+    padding-top: 0;
+    display: block;
+    opacity: 1;
+    z-index: 20;
+    transform: scale(1);
+  }
+
+  .main-nav--pull-right {
+    float: right;
+  }
+
+  .telephone {
+    display: inline;
+    float: right;
+  }
+
+  .logo {
+    left: auto;
+    transform: translate(0, -50%);
+  }
+
+  .site-header__menu-icon {
+    display: none;
+  }
+}
+
+/* TWO COLUMNS */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.row__4-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.row--gutters {
+  margin-right: -65px;
+  /* background-color: yellow; */
+}
+
+.row--gutters > div {
+  padding-right: 65px;
+}
+
+@media (min-width: 800px) {
+  .row__medium-4 {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__medium-4--larger {
+    width: 40%;
+  }
+
+  /* .row__4-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  } */
+
+  .row__4-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+  }
+
+  picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+
+  .row__medium-8 {
+    float: left;
+    width: 66.66%;
+  }
+
+  .row__medium-8--smaller {
+    width: 60%;
+  }
+}
+
+/* Flexbox section */
+/*Three column secction*/
+
+.wrapper {
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h1 {
+  font-size: 2.2rem; /* 40px */
+  /* color: #0056b3; */
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.section-header h3 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 300;
+  color: #444;
+  margin-top: 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.service-item {
+  flex: 1 1 300px;
+  max-width: 420px;
+  text-align: center;
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  max-height: 580px;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+
+.service-item h3 {
+  font-size: 1.1em; /* 16px */
+  margin-top: 1rem;
+  color: #222;
+}
+
+.service-item p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 65ch;
+  color: #333;
+  font-weight: 400;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.section-cta {
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #0056b3;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+}
+
+/* Base mobile styles are already in place above */
+
+/* Tablet and up (from 530px) */
+@media (min-width: 530px) {
+  .section-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .section-header h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Medium devices and up (from 800px) */
+@media (min-width: 800px) {
+  .services-grid {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .service-item {
+    max-width: 420px;
+  }
+}
+
+/* Large screens and up (from 1200px) */
+@media (min-width: 1200px) {
+  .services-grid {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .section-header h3 {
+    font-size: 1.6rem; /* 20px */
+  }
+
+  .section-header h1 {
+    font-size: 3.5rem; /* 40px */
+    /* color: #0056b3; */
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .service-item h3 {
+    font-size: 1.6rem;
+  }
+}

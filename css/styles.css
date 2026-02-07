@@ -1,0 +1,1387 @@
+/* :root {
+ --headline-grey: #2a3a4b; 
+  --headline-dark-blue: #10385c;
+} */
+
+:root {
+  --wrapper-max-width: 1236px;
+
+  --headline-grey: #2d3a59;
+  --headline-dark-blue: #0f1e49;
+  --blue-background: #236e9b;
+  --h1-color: ##3a3a3a;
+
+  --h1-margin-top-100: 100px;
+  --h1-margin-top-150: 150px;
+  --h1-margin-bottom: 40px;
+  --h1-font-size-60: 60px;
+
+  --sub-h1-margin-top-40: 40px;
+  --sub-h1-margin-top-15: 15px;
+  --sub-h1-margin-bottom-46: 46px;
+  --sub-h1-color: #324a6d;
+
+  --p-font-size: 0.95em;
+  --p-color: #aaa;
+  --p-font-weight: 400;
+  --p-margin-top: 1rem;
+  --p-margin-bottom: 1.2rem;
+  --p-line-height-small: 1.6;
+  --p-line-height-medium: 1.7;
+  --p-line-height-big: 1.8;
+
+  --page-section-padding-small: 3rem;
+  --page-section-padding-big: 5rem;
+  --page-section-padding-large: 7rem;
+  --page-section-padding-xl: 9rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 
+**Note on z-indexes for site header
+
+Default side-header 10 otherewise it disapperas probaly because of position absolute i dont know whats covering it maybe picture element
+Default main-nav for small screens is -10
+Default site-header__nam-toggle is 20 bacause it also has positbin absolute
+
+min 800 
+man-nav is 20 
+
+**Note on opacity and display
+
+main nav 
+For small screens: 
+
+Default is 0 
+display is not set
+
+when .showItem is added 
+opacity is turn to 1
+
+For min 800 
+main nav gets opacity 1; 
+
+*/
+
+body {
+  font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem; /* equals 16px */
+  /* line-height: 1.6; */
+  color: #111;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 1rem; 16px */
+  /* line-height: 1.7; Slightly taller for more spacingv */
+  letter-spacing: 0.2;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 65ch;
+  color: #333;
+  font-weight: 400; /* Regular weight for readability */
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+.paragraph-centered {
+  text-align: center;
+}
+
+@media (min-width: 530px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
+
+/* bullet list in a paragraph */
+/* .project-text ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.project-text ul li {
+  margin-bottom: 0.5rem;
+} */
+
+p ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+p ul li {
+  margin-bottom: 0.5rem;
+}
+
+.wrapper {
+  padding: 1px 18px; /* for some reason i got to put 1, otherwise the padding set on the site-header does not work, the 1px gives it something to be propped against */
+  max-width: 1236px;
+  /* we want center location for content of the wrapper */
+  margin: 0 auto;
+  /* background-color: green; */
+  overflow: hidden;
+}
+
+.wrapper--medium {
+  max-width: 976px;
+  margin: 0 auto;
+}
+
+.wrapper .wrapper--medium {
+  padding: 0;
+}
+
+/* This addition to the .wrapper class is for the h2, h3, and image section */
+/* It makes sure the image is proper size on mobile, tablet and big size /* 
+/* Add-on to base wrapper — centers and limits width */
+.wrapper--medium--one-column-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.wrapper--medium--one-column-image--margin-top {
+  margin-top: 3rem;
+}
+
+/* Image styling — responsive base */
+.wrapper--medium--one-column-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px; /* optional: gives a nice modern touch */
+  max-width: 100%;
+  transition: all 0.3s ease-in-out; /* smooth resizing */
+}
+
+/* Page section is responsible for padding top and bottom of particular sections */
+.page-section--blue {
+  background-color: #003d80;
+}
+
+/* Section Padding */
+.section-margin {
+  /* margin-top: 25vh; */
+  /* border: 1px solid green; */
+  padding-top: var(--page-section-padding-small);
+  padding-bottom: var(--page-section-padding-small);
+}
+
+@media (min-width: 530px) {
+  .section-margin {
+    /* margin-top: 25vh; */
+    padding-top: var(--page-section-padding-small);
+    padding-bottom: var(--page-section-padding-medium);
+  }
+}
+
+@media (min-width: 800px) {
+  .section-margin {
+    /* margin-top: 25vh; */
+    padding-top: var(--page-section-padding-big);
+    padding-bottom: var(--page-section-padding-big);
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-margin {
+    /* margin-top: 25vh; */
+    padding-top: var(--page-section-padding-large);
+    padding-bottom: var(--page-section-padding-large);
+  }
+}
+
+/* Headline */
+.headline {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #333;
+  line-height: 130%;
+}
+
+.headline--x-small {
+  font-size: 1.2rem;
+}
+
+.headline--small {
+  font-size: 1.3rem;
+}
+
+.headline--medium {
+  font-size: 1.5rem;
+}
+
+.headline--large {
+  font-size: 2rem;
+}
+
+.headline--light {
+  font-weight: 300;
+  max-width: 60ch;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+}
+
+.headline--line-height-small {
+  line-height: 130%;
+}
+
+.headline--line-height-big {
+  line-height: 150%;
+}
+
+.headline--line-height-large {
+  line-height: 200%;
+}
+
+.headline--narrow {
+  /* width: 500px; */
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline--narrow-medium {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline--strong {
+  font-weight: bold;
+}
+
+.headline--smooth {
+  font-size: 1.2rem;
+  font-size: clamp(1.5rem, 2vw + 1rem, 3.2rem);
+  line-height: 1.1;
+  color: #333;
+}
+
+.headline--centered {
+  text-align: center;
+}
+
+/* Headline margins */
+.headline--margin-top {
+  margin-top: 1.5rem;
+}
+
+.headline--margin-top-large {
+  margin-top: 6rem;
+}
+
+/* Headline bottom margins */
+.headline--b-margin-small {
+  margin-bottom: 1rem;
+}
+
+.headline--b-margin-medium {
+  margin-bottom: 3rem;
+}
+
+.headline--b-margin-big {
+  margin-bottom: 1rem;
+}
+
+.headline--b-margin-large {
+  margin-bottom: 4.7rem; /* 75px */
+}
+
+.headline--small-margin-bottom {
+  margin-bottom: 3rem;
+}
+
+/* Headline colors */
+.headline--grey {
+  color: var(--headline-grey);
+}
+
+.headline--dark-blue {
+  color: var(--headline-dark-blue);
+}
+
+.headline--line-height-big {
+  line-height: 1.8;
+}
+
+.headline--white {
+  color: white;
+}
+
+@media (min-width: 530px) {
+  .headline {
+    font-size: 2rem;
+  }
+
+  .headline--small {
+    font-size: 1.5rem; /* 20px */
+    /* font-weight: 300; */
+    /* max-width: 800px; */
+  }
+
+  .headline--medium {
+    font-size: 2rem; /* 20px */
+    font-weight: 600;
+    max-width: 800px;
+  }
+
+  .headline--large {
+    font-size: 2.25rem;
+  }
+
+  .headline--light {
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 800px) {
+  .headline {
+    /* font-weight: 700; */
+    font-size: 2.25rem;
+  }
+
+  .headline--small {
+    font-size: 1.5rem;
+  }
+
+  .headline--medium {
+    font-size: 1.8rem; /* 20px */
+    /* font-weight: 500; */
+    /* max-width: 800px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headline--large {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headline {
+    font-size: 4rem;
+  }
+
+  .headline--small {
+    font-size: 1.8rem;
+  }
+
+  .headline--medium {
+    font-size: 2.5rem; /* 20px */
+  }
+
+  .headline--large {
+    font-size: 5rem;
+  }
+
+  .headline--b-margin-large {
+    margin-bottom: 8rem;
+  }
+
+  .headline--margin-top {
+    margin-top: 3rem;
+  }
+}
+
+/* Site header section */
+
+/* .site-header__logo {
+  position: absolute;
+  z-index: 15;
+} */
+
+.logo {
+  display: none; /* For stylistic reason show only after 450px */
+  font-size: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 450px) {
+  .logo {
+    display: block;
+  }
+}
+
+.logo.hideItem {
+  display: none;
+}
+
+/* Main Nav */
+.main-nav {
+  /* display: none; */
+  /* instead of display none, we want to add a transition. To do that we need opacity 0 and hide it 
+    so that it is not clicked by accident, so z-index = -10; */
+  /* this for when menu is visible after toggling the btn */
+  /* padding-top: 30px; */
+  position: relative; /* otheriwse browser wont ackgnoledge our z-index */
+  z-index: -10;
+  transform: scale(1.2);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+
+  /* border: 1px solid white; */
+}
+
+/* Main nav and telephone visible for toggle of site-header__nav_toggle */
+/* .telephone.showItem {
+  display: inline-block;
+} */
+
+.main-nav.showItem {
+  /* display: block; */
+  opacity: 1;
+  transform: scale(1);
+  z-index: 10;
+}
+
+.main-nav.showItem li {
+  display: block;
+  padding: 10px;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav li {
+  /* this is so that the site-header stays narrow and is not expanded by block lis */
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.main-nav li a {
+  font-weight: 100;
+  font-size: 1.15rem;
+}
+
+/* Site header */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* position: absolute has caused strange stacking it disappears, maybe picture alament hid it */
+  padding: 1rem 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-header.showItem {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* .site-header.showItem .main-nav {
+  margin: 0 auto;
+} */
+
+.site-header__menu-icon {
+  position: absolute;
+  z-index: 20;
+  top: 2rem;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 19px;
+}
+
+.site-header__menu-icon::before {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transition: transform 0.3s ease-out;
+}
+
+.site-header__menu-icon::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: 0 100%;
+  transition: transform 0.3s ease-out;
+}
+
+.site-header__menu-icon__middle {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  transform-origin: 0 50%;
+  transition: all 0.3s ease-out;
+}
+
+.site-header__menu-icon--close-x::before {
+  transform: rotate(45deg) scaleX(1.25);
+}
+
+.site-header__menu-icon--close-x::after {
+  transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+}
+
+.site-header__menu-icon--close-x .site-header__menu-icon__middle {
+  opacity: 0;
+  transform: scaleX(0) 0.3s ease-out;
+}
+
+@media (min-width: 800px) {
+  /* .site-header__menu_content {
+    display: block;
+  } */
+
+  .main-nav {
+    /* reset the padding-top: 30px */
+    padding-top: 0;
+    /* display: block; */
+    opacity: 1;
+    z-index: 20;
+    transform: scale(1);
+  }
+
+  .main-nav--pull-right {
+    float: right;
+  }
+
+  .telephone {
+    display: inline;
+    float: right;
+  }
+
+  .logo {
+    left: auto;
+    transform: translate(0, -50%);
+  }
+
+  .site-header__menu-icon {
+    display: none;
+  }
+}
+
+/* HERO */
+/* hero section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  /* padding: 100px 20px; /* Add space if this is a hero section */
+  text-align: center;
+  position: relative;
+}
+
+.hero picture,
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  color: #e0e0e0; /* Slight contrast for subtitle */
+}
+
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 100;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #f0f0f0;
+  display: none;
+}
+
+.hero-description--broad {
+  max-width: 800px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: #0056b3; /* professional navy-blue */
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #003d80; /* slightly darker on hover */
+  transform: scale(1.03);
+}
+
+@media (min-width: 338px) {
+  .hero-description {
+    display: block;
+  }
+}
+
+@media (min-width: 530px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero-title {
+    font-size: 4.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+}
+
+/* h2, h3, picture and text secton */
+
+/* @media (min-width: 530px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero-title {
+    font-size: 4.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+} */
+
+/* Two columns project section */
+
+.service-grid {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.25rem;
+  gap: 1rem;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 8px;
+
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.text-column {
+  text-align: center; /* p text is not in the center yet, the p block inside the text block still needs margin 0 auto*/
+  margin: 0 auto;
+}
+
+.text-column p {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+
+.text-column ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.text-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  .service-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 3rem;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 60px;
+  }
+
+  .image-column,
+  .text-column {
+    flex: 1; /* each with 50% of width */
+  }
+
+  /* resettig the text align-center from the small media screen where text-narrow has margins */
+  .text-column {
+    text-align: left;
+  }
+
+  .service-grid .headline--b-margin-medium {
+    margin-bottom: 3rem;
+  }
+
+  /* There appear to be some margins inside the h3 box for the text that w need to eliminate */
+  .text-column .headline {
+    margin: 0;
+  }
+}
+
+/* Our Features theee column section */
+.services-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.service-item {
+  flex: 1 1 300px;
+  max-width: 420px;
+  text-align: center;
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  max-height: 580px;
+  object-fit: cover;
+}
+
+.service-item p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 65ch;
+  color: #333;
+  font-weight: 400;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.section-cta {
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #0056b3;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+}
+
+/* Benefits section - four columns */
+.benefits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.benefit-item {
+  background-color: #f5f6fa;
+  flex: 1 1 220px;
+  max-width: 280px;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.benefit-item .icon {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #1f2a56;
+  margin-bottom: 0.7rem;
+  width: 100%;
+
+  display: block;
+  text-align: center;
+  font-size: 1.5rem; /* Adjust size if needed */
+  margin: 0.5rem 0;
+}
+
+/* 3 Column / uslugi dodakowe */
+.additional-services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.service-card {
+  flex: 1 1 300px;
+  max-width: 320px;
+  text-align: left;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.icon-container {
+  display: block;
+  width: 100%;
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Q and A session */
+.qanda-grid {
+  background-color: var(--blue-background);
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.qanda-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 30px 20px;
+  border: 1px solid white;
+}
+
+.qanda-item .p--white {
+  color: white;
+}
+
+@media (min-width: 800px) {
+  .qanda-grid {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .qanda-item {
+    padding: 35px 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .qanda-grid {
+    width: 1200px;
+    padding: 60px;
+  }
+
+  .qanda-item {
+    padding: 60px 40px;
+    width: 330px;
+  }
+}
+
+/* Team section */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.team-card {
+  flex: 1 1 250px;
+  max-width: 250px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-and-name {
+  display: flex;
+  gap: 1rem;
+}
+
+.head-picture {
+  border-radius: 50%;
+  width: 65px;
+  height: auto;
+  object-fit: cover;
+}
+
+.name-text {
+  font-style: italic;
+  color: #444;
+}
+
+.our-team {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #333;
+}
+/* ************************* */
+/* Projects */
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.project-text p {
+  margin-bottom: 1rem;
+}
+
+.project-text ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.project-text ul li {
+  margin-bottom: 0.5rem;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Optional; only if image is inside a constrained box */
+  max-width: 100%;
+}
+
+/* Tablet: 530px+ */
+@media (min-width: 530px) {
+  .project-section {
+    gap: 3rem;
+  }
+}
+
+/* Medium screens: 800px+ */
+@media (min-width: 800px) {
+  .project-section {
+    margin-top: 4.5rem;
+    flex-direction: row;
+    /* align-items: flex-start; */
+  }
+
+  /* we need to switch off margin top, cause it looks weird beyond 800*/
+  .headline--margin-top {
+    margin-top: 0;
+  }
+
+  .project-text,
+  .project-image {
+    flex: 1;
+  }
+
+  .project-image {
+    max-width: 50%; /* optional control */
+  }
+}
+
+/* Large desktop: 1200px+ */
+@media (min-width: 1200px) {
+  .project-section {
+    margin-top: 10rem;
+    gap: 4rem;
+  }
+
+  .project-image img {
+    max-width: 100%;
+    height: auto; /* still maintain ratio */
+  }
+}
+/* ******************** */
+/* Big header - text - icon section */
+
+.centered-text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 4rem 1rem; */
+  /* background: #fff; */
+  text-align: center;
+}
+
+.centered-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+}
+
+.centered-text-container p {
+  max-width: 60ch;
+  margin-bottom: 1rem;
+  color: #334155;
+}
+
+.centered-text-icon {
+  margin-top: 1rem;
+}
+
+/* --- Breakpointy --- */
+@media (max-width: 1200px) {
+  .centered-text-container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 800px) {
+  .centered-text-container {
+    max-width: 90%;
+  }
+  .centered-text-title {
+    /* font-size: clamp(1.6rem, 4vw, 2.4rem); */
+  }
+}
+
+@media (max-width: 530px) {
+  .centered-text-title {
+    /* font-size: 1.6rem; */
+  }
+  .centered-text-container p {
+    font-size: 0.95rem;
+  }
+}
+
+/* ************************* */
+/* Information section */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.info-item {
+  padding: 0 1rem;
+}
+
+.headline--icon {
+  /* font-size: 1.5rem; */
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 1.2em;
+  height: 1.2em;
+  flex-shrink: 0;
+  color: #333;
+  margin-right: 1.2rem;
+  font-size: 2rem;
+}
+
+/* ≥ 530px – 2-column layout */
+@media (min-width: 530px) {
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* ≥ 800px – increased spacing */
+@media (min-width: 800px) {
+  .info-grid {
+    gap: 3rem 4rem;
+  }
+}
+
+/* ≥ 1200px – spacious layout */
+@media (min-width: 1200px) {
+  .info-grid {
+    padding: 3rem 0;
+    column-gap: 5rem;
+  }
+
+  /* Client section */
+  .clients {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .clients__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+}
+/* ≥ 800px */
+@media (min-width: 800px) {
+  .clients {
+    padding: 3rem 2rem;
+  }
+}
+
+/* ≥ 1200px */
+@media (min-width: 1200px) {
+  .clients {
+    padding: 4rem 3rem;
+  }
+
+  .clients__image img {
+    max-width: 1031px;
+    margin-inline: auto;
+  }
+}
+
+/* ************************** */
+/* Contact and footer section */
+
+/* .contact-footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+} */
+
+/* Row 1 */
+.contact-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.contact-info p {
+  margin: 0;
+  color: #333;
+}
+
+.contact-map {
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Row 2 */
+.contact-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.footer-logo img {
+  max-width: 60px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Row 3 */
+.contact-bottom {
+  background-color: #f1f1f1;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.contact-bottom p {
+  margin: 0 auto;
+}
+
+/* --- Breakpoints --- */
+
+/* ≥530px */
+@media (min-width: 530px) {
+  .contact-info h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ≥800px */
+@media (min-width: 800px) {
+  .contact-top {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .contact-map {
+    flex: 1;
+    height: 300px;
+  }
+
+  .contact-info {
+    flex: 1;
+    padding-left: 2rem;
+  }
+
+  .contact-middle {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  /* the footer-logo, footer-socials and footer-links divs must be equali width, otherwise look weird */
+  .contact-middle > div {
+    flex: 1;
+  }
+  /* centering social icons inside their div */
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-links {
+    align-items: flex-end;
+  }
+}
+
+/* ≥1200px */
+@media (min-width: 1200px) {
+  .contact-top {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .contact-middle {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .contact-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

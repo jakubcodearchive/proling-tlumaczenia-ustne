@@ -1,0 +1,57 @@
+<!-- Row: Logo, Social Icons, Links -->
+<div class="contact-middle">
+  <div class="footer-logo">
+    <!-- Placeholder SVG Logo -->
+    <img class="footer-logo" src="./images/logo.png" />
+  </div>
+
+  <div class="footer-socials">
+    <!-- Facebook SVG -->
+    <a href="https://www.facebook.com/symultaniczni" aria-label="Facebook">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="#4267B2"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M22.675 0h-21.35C.592 0 0 .593 0 1.326v21.348C0 23.407.592 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.795.716-1.795 1.765v2.314h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .593 23.407 0 22.675 0z"
+        />
+      </svg>
+    </a>
+
+    <!-- YouTube SVG -->
+    <a href="https://www.youtube.com/@symultaniczne9507" aria-label="YouTube">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="#FF0000"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.498 6.186a2.963 2.963 0 00-2.088-2.096C19.852 3.5 12 3.5 12 3.5s-7.852 0-9.41.59A2.963 2.963 0 00.502 6.186 31.524 31.524 0 000 12a31.524 31.524 0 00.502 5.814 2.963 2.963 0 002.088 2.096C4.148 20.5 12 20.5 12 20.5s7.852 0 9.41-.59a2.963 2.963 0 002.088-2.096A31.524 31.524 0 0024 12a31.524 31.524 0 00-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"
+        />
+      </svg>
+    </a>
+  </div>
+
+  <div class="footer-links">
+    <a href="/biuro-tlumaczen-bydgoszcz/">Biuro tłumaczeń Bydgoszcz</a>
+    <a href="/tlumaczenia-symultaniczne-poznan/"
+      >Tłumaczenie Symultaniczne Poznań</a
+    >
+    <a href="/tlumaczenie-symultaniczne/">Tłumaczenie symultaniczne</a>
+    <a href="/biuro-tlumaczen-wroclaw/">Biuro tłumaczeń Wrocław</a>
+    <a href="/biuro-tlumaczen-szczecin/">Biuro tłumaczeń Szczecin</a>
+  </div>
+</div>
+
+<!-- Row: Contact Summary -->
+<div class="contact-bottom">
+  <p>
+    tel: 509-662-578 &nbsp;&nbsp; tel: 728-807-015<br />
+    jakub.skrzeczkowski@gmail.com | prolingjs@protonmail.com
+  </p>
+</div>

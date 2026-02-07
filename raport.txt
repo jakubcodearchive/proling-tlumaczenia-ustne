@@ -1,0 +1,99 @@
+
+Option A: Link to another page on your website
+
+If your file is in the same directory:
+
+<a href="kontakt.php">Kontakt</a>
+
+
+If it’s in a different folder (e.g., pages/tlumaczenia.php):
+
+<a href="pages/tlumaczenia.php">Tłumaczenia symultaniczne</a>
+
+
+If you need to go one folder up:
+
+<a href="../index.php">Powrót na stronę główną</a>
+
+
+✅ Tip: Always use relative paths for internal links (so they work regardless of domain).
+When you upload your website, / will represent your web root (e.g. https://twojadomena.pl/).
+
+Do naprawienia: 
+- umieścić linki 
+
+Wszedzie chcemy miec skalowalne obrazki: 
+✅ width: 100%; height: auto; → makes the image fluid inside its parent (wrapper--medium), so it scales naturally.
+
+Here are keywrd heading and useful phrases tips: 
+
+✅ 1. Repeating keywords — is it OK?
+
+Yes, repetition is fine, as long as it’s natural.
+Google’s current algorithms (especially after the Helpful Content and Core updates) don’t reward mechanical keyword stuffing. Instead, they focus on semantic relevance and topical depth — meaning that it’s better to use natural variations and related terms than to repeat the exact phrase every time.
+
+For example, instead of repeating just:
+
+“tłumaczenia symultaniczne Wrocław”
+
+you can use variations like:
+
+„tłumaczenia konferencyjne Wrocław”
+
+„biuro tłumaczeń we Wrocławiu”
+
+„tłumaczenie kabinowe Wrocław”
+
+„tłumaczenia ustne w woj. dolnośląskim”
+
+💡 Tip:
+Use the main keyword once in the <h1> and once in the first 100–150 words, then sprinkle synonyms naturally across the page.
+That gives you healthy keyword density (around 1.5–2.5%) without sounding robotic.
+
+✅ 2. Are our current HTML structures good for SEO?
+
+Yes — your current structure is actually very strong:
+
+You’re using semantic headings (<h1>, <h2>, <h3>) logically and hierarchically.
+
+Important phrases are wrapped in <strong> tags — that’s perfect, because it tells Google: “this part of the text is significant.”
+
+You’re using <p> tags for paragraphs, <ul> for lists — that improves structure and readability for both users and search engines.
+
+Just be careful not to overuse <strong> — once per paragraph or section is ideal.
+
+✅ 3. Keyword density & variety
+
+Right now, we’re in a good range, but as we continue building new subsections, I’ll:
+
+✅ track the frequency of your main keyword,
+
+✅ add semantic variations naturally,
+
+✅ ensure readability stays top-tier,
+
+✅ and make subtle adjustments to tone and flow to keep it human while staying SEO-optimized.
+
+✅ 4. What we can add for even better on-site SEO
+
+If you want to really strengthen your on-site SEO, we can:
+
+Add schema markup (e.g., LocalBusiness or Service type),
+
+Include internal links to related subpages (like “tłumaczenia konferencyjne”, “tłumaczenia pisemne”),
+
+Add local signals like “obsługujemy firmy i instytucje z Wrocławia i okolic”,
+
+Ensure each section has one primary keyword focus and one supporting phrase.
+
+🔍 TL;DR — My promise for the next texts
+
+As we continue writing your subsections, I will:
+
+✅ optimize keyword density & synonyms,
+
+✅ make the language sound natural and trustworthy,
+
+✅ ensure logical HTML structure,
+
+✅ and let you know when something could be improved for better on-site SEO.
