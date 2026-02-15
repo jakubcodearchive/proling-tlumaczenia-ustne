@@ -74,7 +74,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
   </p>
 
   <p>
-    Nasi <strong><a href="index.php">tłumacze symultaniczni</a></strong> pracują w wymagających warunkach 
+    Nasi <strong><a href="/">tłumacze symultaniczni</a></strong> pracują w wymagających warunkach 
     konferencji międzynarodowych, gdzie liczy się tempo, koncentracja i pełne zrozumienie kontekstu. 
     Oferujemy obsługę w języku angielskim, niemieckim oraz wielu innych – 
     zarówno na miejscu w Poznaniu, jak i w formie <strong>tłumaczeń symultanicznych online</strong>.

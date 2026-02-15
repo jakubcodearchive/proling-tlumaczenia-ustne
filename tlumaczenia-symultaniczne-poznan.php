@@ -93,7 +93,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
 
             <p>Zapraszamy do współpracy – nasze <strong>biuro tłumaczeń</strong> oferuje kompleksowe usługi tłumaczeniowe. W celu zaoferowania Państwu tłumaczenia symultaniczne, konsekutywne i pisemne najwyższej jakości współpracujemy z kompetentnymi tłumaczami.</p>
 
-            <p>Nasza oferta obejmuje <a href="tlumaczenia-symultaniczne.php">tłumaczenia ustne symultaniczne</a>, konsekutywne, ale też tłumaczenia pisemne – na języki angielski, francuski, niemiecki, włoski, rosyjski, czeski.</p>
+            <p>Nasza oferta obejmuje <a href="/tlumaczenia-symultaniczne/">tłumaczenia ustne symultaniczne</a>, konsekutywne, ale też tłumaczenia pisemne – na języki angielski, francuski, niemiecki, włoski, rosyjski, czeski.</p>
 
             <p>Na naszej stronie www oraz na profilu na Facebooku znajdą Państwo przykłady realizacji w Poznaniu – tłumaczenia ustne wykonane przez współpracujących z nami tłumaczy.</p>
         </div>
@@ -174,7 +174,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
         </ul>
         <p>Wiele z organizowanych w Poznaniu <strong>tłumaczeń symultanicznych</strong> wymaga umieszczenia w sali kabiny tłumaczeniowej. Nasze <strong>biuro tłumaczeń</strong> zapewnia profesjonalny sprzęt i obsługę techniczną, dzięki czemu <strong>tłumaczenia symultaniczne Poznań</strong> przebiegają sprawnie i bez zakłóceń. Jeśli ustawienie kabiny nie jest możliwe, oferujemy nowoczesne zestawy słuchawkowe typu <em>tour guide</em>, które świetnie sprawdzają się podczas szkoleń, konferencji i wyjazdów studyjnych.</p>
 
-        <p>Zachęcamy do nawiązania współpracy z naszym <strong><a href="biuro-tlumaczen-bydgoszcz.php">biurem tłumaczeń</a>biurem tłumaczeń w Poznaniu</strong>. Chętnie udzielimy konsultacji językowych i doradzimy, jakie rozwiązanie będzie najlepsze – czy <strong>tłumaczenie symultaniczne</strong>, konsekutywne czy pisemne. Nasze doświadczenie obejmuje obsługę wydarzeń biznesowych, naukowych i kulturalnych na terenie całego województwa wielkopolskiego.</p>
+        <p>Zachęcamy do nawiązania współpracy z naszym <strong><a href="/biuro-tlumaczen-bydgoszcz/">biurem tłumaczeń</a>biurem tłumaczeń w Poznaniu</strong>. Chętnie udzielimy konsultacji językowych i doradzimy, jakie rozwiązanie będzie najlepsze – czy <strong>tłumaczenie symultaniczne</strong>, konsekutywne czy pisemne. Nasze doświadczenie obejmuje obsługę wydarzeń biznesowych, naukowych i kulturalnych na terenie całego województwa wielkopolskiego.</p>
 
         <p>Współpracujący z nami tłumacze to wykwalifikowani specjaliści, absolwenci i wykładowcy m.in. Uniwersytetu im. Adama Mickiewicza w Poznaniu oraz Politechniki Poznańskiej. Dzięki ich wiedzy i umiejętnościom możemy zaoferować <strong>tłumaczenia symultaniczne Poznań</strong>, konsekutywne oraz pisemne na najwyższym poziomie, w tym tłumaczenia specjalistyczne i techniczne.</p>
       </div>

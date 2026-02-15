@@ -173,7 +173,7 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
             </p>
 
             <p>
-                Wykonujemy <strong><a href="biuro-tlumaczen-wroclaw.php">tłumaczenia symultaniczne zdalne</a></strong> na najpopularniejszych 
+                Wykonujemy <strong><a href="/biuro-tlumaczen-wroclaw/">tłumaczenia symultaniczne zdalne</a></strong> na najpopularniejszych 
                 platformach wideokonferencyjnych, takich jak <em>Zoom</em>, <em>Google Meet</em> 
                 czy <em>Microsoft Teams</em>. 
                 Obsługujemy wydarzenia firmowe, webinary, szkolenia międzynarodowe oraz spotkania biznesowe, 

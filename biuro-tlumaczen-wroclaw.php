@@ -179,7 +179,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
             <p>
             <strong>Dlaczego warto wybrać nas?</strong>  
             Naszym priorytetem jest rzetelne i precyzyjne przekazywanie wypowiedzi oraz intencji prelegentów i uczestników wydarzenia.  
-            Oferowane przez nas <strong>tłumaczenia ustne</strong>, w tym <a href="tlumaczenia-symultaniczne.php">symultaniczne</a>, 
+            Oferowane przez nas <strong>tłumaczenia ustne</strong>, w tym <a href="/tlumaczenia-symultaniczne/">symultaniczne</a>, 
             pomagają firmom, instytucjom i organizacjom międzynarodowym skutecznie komunikować się 
             z partnerami i klientami z całego świata.
             </p>

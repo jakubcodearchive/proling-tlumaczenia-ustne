@@ -1,7 +1,7 @@
 <footer>
   <!-- Row 2: Logo, Social Icons, Links -->
   <div class="contact-middle">
-    <div class="/footer-logo">
+    <div class="footer-logo">
       <!-- Placeholder SVG Logo -->
       <img class="footer-logo" src="/images/index/logo.jpg"/>
     </div>
