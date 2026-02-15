@@ -89,7 +89,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
 
     <div class="wrapper--medium wrapper--medium--one-column-image
                 wrapper--medium--one-column-image--margin-top">
-        <img src="./images/wroclaw/biuro-tlumaczen-konferencja-wroclaw.webp" 
+        <img src="/images/wroclaw/biuro-tlumaczen-konferencja-wroclaw.webp" 
         alt="Tłumaczenie symultaniczne Wrocław – biuro tłumaczeń Proling"
         loading="lazy">
     </div>
@@ -105,7 +105,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
 
     <!-- Image Column -->
     <div class="image-column">
-     <img src="./images/wroclaw/biuro-tlumaczen-wroclaw.webp" 
+     <img src="/images/wroclaw/biuro-tlumaczen-wroclaw.webp" 
       alt="Biuro tłumaczeń Wrocław – profesjonaliści obsługujący międzynarodowe wydarzenie"
       width="600" height="400" loading="lazy">
     </div>
@@ -194,7 +194,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
 
       <!-- Image Column -->
       <div class="image-column">
-     <img src="./images/wroclaw/tlumaczenia-symultaniczne-wroclaw.webp" 
+     <img src="/images/wroclaw/tlumaczenia-symultaniczne-wroclaw.webp" 
         alt="Tłumaczenia symultaniczne Wrocław – tłumacz w kabinie podczas konferencji"
         width="600" height="400" loading="lazy">
       </div>
@@ -204,7 +204,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
       
       <!-- Image Column -->
       <div class="image-column">
-      <img src="./images/wroclaw/kabiny-tlumaczeniowe-wroclaw.webp" 
+      <img src="/images/wroclaw/kabiny-tlumaczeniowe-wroclaw.webp" 
         alt="Kabiny tłumaczeniowe używane podczas tłumaczeń symultanicznych we Wrocławiu"
         width="600" height="400" loading="lazy">
       </div>  
@@ -279,7 +279,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
   <div class="services-grid">
     <!-- Service Item --> 
     <div class="service-item">
-     <img src="./images/wroclaw/tlumacz-symultaniczny-wroclaw.webp" 
+     <img src="/images/wroclaw/tlumacz-symultaniczny-wroclaw.webp" 
       alt="Tłumacz symultaniczny w trakcie pracy w kabinie na konferencji we Wrocławiu"
       width="600" height="400" loading="lazy">
 
@@ -293,7 +293,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
     
     <!-- Service Item --> 
     <div class="service-item">
-      <img src="./images/wroclaw/konferencja-tlumaczenia-wroclaw.webp" 
+      <img src="/images/wroclaw/konferencja-tlumaczenia-wroclaw.webp" 
         alt="Konferencja biznesowa we Wrocławiu obsługiwana przez biuro tłumaczeń Proling"
         width="600" height="400" loading="lazy">
 
@@ -307,7 +307,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
 
     <!-- Service Item --> 
     <div class="service-item">
-    <img src="./images/wroclaw/sprzet-do-tlumaczen-symultanicznych-wroclaw.webp" 
+    <img src="/images/wroclaw/sprzet-do-tlumaczen-symultanicznych-wroclaw.webp" 
       alt="Sprzęt do tłumaczeń symultanicznych – mikrofony i zestawy słuchawkowe Wrocław"
       width="600" height="400" loading="lazy">
 
@@ -321,7 +321,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
 
     <!-- Service Item --> 
     <div class="service-item">
-      <img src="./images/wroclaw/biuro-tlumaczen-konferencja-wroclaw.webp" 
+      <img src="/images/wroclaw/biuro-tlumaczen-konferencja-wroclaw.webp" 
         alt="Biuro tłumaczeń Wrocław – obsługa językowa konferencji naukowej"
         width="600" height="400" loading="lazy">
 
@@ -432,7 +432,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
     </div>
 
     <div class="project-image">
-    <img src="./images/wroclaw/cena-tlumaczenia-symultanicznego-wroclaw.webp" 
+    <img src="/images/wroclaw/cena-tlumaczenia-symultanicznego-wroclaw.webp" 
       alt="Cena tłumaczenia symultanicznego Wrocław – przykładowa realizacja konferencyjna"
       width="600" height="400" loading="lazy">
     </div>
@@ -482,7 +482,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
     </div>
 
     <div class="project-image">
-     <img src="./images/wroclaw/kabina-tlumacza-symultanicznego-wroclaw.webp" 
+     <img src="/images/wroclaw/kabina-tlumacza-symultanicznego-wroclaw.webp" 
         alt="Kabina tłumacza symultanicznego podczas wydarzenia branżowego we Wrocławiu"
         width="600" height="400" loading="lazy">
     </div>
@@ -543,11 +543,11 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
     <!-- Image Column -->
     <div class="image-column">
       <picture>
-        <source srcset="images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
-        <source srcset="images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
+        <source srcset="/images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
+        <source srcset="/images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
         <img 
           
-          src="images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
+          src="/images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
           alt="Tłumacz symultaniczny podczas konferencji we Wrocławiu"
           width="600" 
           height="400"
@@ -646,7 +646,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
 
       <!-- Image Column -->
       <div class="image-column">
-          <img src="./images/wroclaw/tlumaczenie-konferencja-wroclaw.webp" 
+          <img src="/images/wroclaw/tlumaczenie-konferencja-wroclaw.webp" 
           alt="Biuro tłumaczeń Wrocław – obsługa językowa konferencji naukowej"
           width="600" height="400" loading="lazy">
       </div>
@@ -656,7 +656,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
       
     <!-- Image Column -->
     <div class="image-column">
-      <img src="./images/wroclaw/tlumaczenia-konferencyjne-wroclaw.webp" 
+      <img src="/images/wroclaw/tlumaczenia-konferencyjne-wroclaw.webp" 
         alt="Tłumaczenia konferencyjne i symultaniczne realizowane we Wrocławiu"
         width="600" height="400" loading="lazy"><picture>
     </div>  
@@ -713,7 +713,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
       
       <!-- Image Column -->
       <div class="image-column">
-        <img src="./images/wroclaw/tlumaczenia-symultaniczne-tlumacze.webp" 
+        <img src="/images/wroclaw/tlumaczenia-symultaniczne-tlumacze.webp" 
           alt="Tłumaczenia symultaniczne Wrocław – zespół tłumaczy w trakcie konferencji"
           width="600" height="400" loading="lazy">
       </div>  
@@ -775,7 +775,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
+          src="/images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
           alt="Zdjęcia tłumaczenia symulanicznego" 
           width="250" 
           height="250" 
@@ -790,7 +790,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
      <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
+          src="/images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
           alt="Fotografia Tłumacza symultanicznego" 
           width="250" 
           height="250" 
@@ -805,7 +805,7 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/pracownik-biura-tlumaczen.jpg" 
+          src="/images/small/pracownik-biura-tlumaczen.jpg" 
           alt="Biuro tłumaczeń we Wrocławiu" 
           width="250" 
           height="250" 
@@ -824,11 +824,11 @@ $description = "Tłumaczenia symultaniczne Wrocław – profesjonalne biuro tłu
   <picture class="clients__image">
     <!-- WebP Source -->
     <source 
-      srcset="./images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
+      srcset="/images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
       type="image/webp">
     <!-- JPG Fallback -->
     <img 
-      src="./images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
+      src="/images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
       alt="Klienci naszego biura"
       width="1031"
       height="199"

@@ -53,7 +53,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
   <div class="wrapper--medium wrapper--medium--one-column-image
                   wrapper--medium--one-column-image--margin-top">
     <img 
-      src="./images/symultaniczne/kongres-tlumaczenia-symultaniczne.webp" 
+      src="/images/symultaniczne/kongres-tlumaczenia-symultaniczne.webp" 
       alt="Tłumaczenia symultaniczne – profesjonalny tłumacz podczas konferencji biznesowej" 
       loading="lazy">
   </div>
@@ -107,7 +107,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
       <!-- Image Column -->
         <div class="image-column">
           <img  
-            src="./images/symultaniczne/tlumaczenia-symultaniczne.webp"  
+            src="/images/symultaniczne/tlumaczenia-symultaniczne.webp"  
             alt="Tłumaczenia symultaniczne podczas międzynarodowej konferencji"  
             loading="lazy" width="600" height="400">
         </div>
@@ -195,7 +195,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
       <!-- Image Column -->
       <div class="image-column">
         <img  
-          src="./images/symultaniczne/tlumaczenia-symultaniczne-konferencja.webp"  
+          src="/images/symultaniczne/tlumaczenia-symultaniczne-konferencja.webp"  
           alt="Tłumaczenia symultaniczne na konferencji branżowej z udziałem tłumacza"  
           loading="lazy" width="600" height="400">
       </div>
@@ -208,7 +208,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
         <picture>
           <!-- Standard large image for wider viewports -->
           <img  
-            src="./images/symultaniczne/tlumaczenia-symultaniczne-angielski.webp"  
+            src="/images/symultaniczne/tlumaczenia-symultaniczne-angielski.webp"  
             alt="Profesjonalne tłumaczenia symultaniczne z języka angielskiego"  
             loading="lazy" width="600" height="400">
       </div>  
@@ -291,12 +291,12 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
       <picture>
         <!-- WebP source -->
         <source 
-          srcset="./images/small/tlumaczenia-wielojezyczne-polska-small.webp" 
+          srcset="/images/small/tlumaczenia-wielojezyczne-polska-small.webp" 
           type="image/webp">
 
         <!-- JPG fallback -->
         <img 
-          src="./images/small/tlumaczenia-wielojezyczne-polska-small.jpg" 
+          src="/images/small/tlumaczenia-wielojezyczne-polska-small.jpg" 
           alt="Tłumaczenie konsekutywne w biurze tłumaczeń Poznań" 
           loading="lazy"
           width="420"
@@ -313,7 +313,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
     <!-- Service Item --> 
     <div class="service-item">
       <img  
-        src="./images/symultaniczne/tlumaczenia-symultaniczne-niemiecki.webp"  
+        src="/images/symultaniczne/tlumaczenia-symultaniczne-niemiecki.webp"  
         alt="Tłumaczenia symultaniczne z języka niemieckiego podczas wydarzenia międzynarodowego"  
         loading="lazy" width="600" height="400">
 
@@ -326,7 +326,7 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
     <!-- Service Item --> 
     <div class="service-item">
       <img  
-        src="./images/symultaniczne/tlumacz-symultaniczny.webp"  
+        src="/images/symultaniczne/tlumacz-symultaniczny.webp"  
         alt="Doświadczony tłumacz symultaniczny pracujący w kabinie tłumaczeniowej"  
         loading="lazy" width="600" height="400">
 
@@ -340,9 +340,9 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
     <!-- Service Item --> 
     <div class="service-item">
       <picture>
-        <source srcset="./images/small/dendro-small.webp" type="image/webp">
+        <source srcset="/images/small/dendro-small.webp" type="image/webp">
         <img 
-          src="./images/small/dendro-small.jpg" 
+          src="/images/small/dendro-small.jpg" 
           alt="Tłumaczenie online podczas spotkania zdalnego" 
           width="420" 
           height="580" 
@@ -466,9 +466,9 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/cena-tlumaczenia-symultanicznego.webp" type="image/webp">
+        <source srcset="/images/small/cena-tlumaczenia-symultanicznego.webp" type="image/webp">
         <img 
-          src="./images/small/cena-tlumaczenia-symultanicznego.jpg" 
+          src="/images/small/cena-tlumaczenia-symultanicznego.jpg" 
           alt="Nagłośnienie konferencji i eventów Poznań" 
           width="972" 
           height="729" 
@@ -527,9 +527,9 @@ $description = "Profesjonalne tłumaczenia symultaniczne dla konferencji, kongre
 
     <div class="project-image">
     <picture>
-      <source srcset="./images/symultaniczne/biuro-tlumaczen-miedzynarodowe.webp" type="image/webp">
+      <source srcset="/images/symultaniczne/biuro-tlumaczen-miedzynarodowe.webp" type="image/webp">
       <img 
-        src="./images/small/cena-tlumaczenia-symultanicznego.jpg" 
+        src="/images/small/cena-tlumaczenia-symultanicznego.jpg" 
         alt="Nagłośnienie konferencji i eventów Poznań" 
         width="972" 
         height="729" 

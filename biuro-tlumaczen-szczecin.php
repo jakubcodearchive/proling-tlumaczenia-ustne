@@ -89,7 +89,7 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="wrapper--medium wrapper--medium--one-column-image
                 wrapper--medium--one-column-image--margin-top">
-        <img src="./images/szczecin/tlumaczenie-symultaniczne-szczecin.webp" 
+        <img src="/images/szczecin/tlumaczenie-symultaniczne-szczecin.webp" 
         alt="Tłumaczenie symultaniczne Wrocław – biuro tłumaczeń Proling"
         loading="lazy">
     </div>
@@ -106,11 +106,11 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
         <!-- Image Column -->
         <div class="image-column">
           <picture>
-            <source srcset="images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
-            <source srcset="images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
+            <source srcset="/images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
+            <source srcset="/images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
             <img 
              
-              src="images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
+              src="/images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
               alt="Tłumaczenie ustne w międzynarodowym biurze tłumaczeń"
               width="600" 
               height="400"
@@ -199,14 +199,14 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
         <picture>
         <!-- Large WebP for wider screens -->
         <source 
-          srcset="images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
+          srcset="/images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
         <source 
-          srcset="images/small/kabiny_symultaniczne-small.webp" type="image/webp">
+          srcset="/images/small/kabiny_symultaniczne-small.webp" type="image/webp">
 
         <!-- JPG fallback -->
         <img 
          
-          src="images/img/kabiny_symultaniczne-fallback.jpg" 
+          src="/images/img/kabiny_symultaniczne-fallback.jpg" 
           alt="Kabiny do tłumaczenia symultanicznego na konferencji"
           width="600" 
           height="400"
@@ -223,18 +223,18 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
         <picture>
           <!-- Standard large image for wider viewports -->
           <source 
-            srcset="images/large/kongres-symultaniczne-large.webp" 
+            srcset="/images/large/kongres-symultaniczne-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
           <!-- Smaller image for small screens -->
           <source 
-            srcset="images/small/kongres-symultaniczne-small.webp" 
+            srcset="/images/small/kongres-symultaniczne-small.webp" 
             type="image/webp">
 
           <!-- Fallback image (JPG) -->
           <img 
-            src="images/img/kongres-symultaniczne-fallback.jpg" 
+            src="/images/img/kongres-symultaniczne-fallback.jpg" 
             alt="Tłumacz symultaniczny podczas kongresu międzynarodowego" 
             width="600" 
             height="400" 
@@ -314,18 +314,18 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
             
             <!-- Standard large image for wider viewports -->
             <source 
-            srcset="images/large/tlumaczenia-wielojezyczne-polska-large.webp" 
+            srcset="/images/large/tlumaczenia-wielojezyczne-polska-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
             <!-- Smaller image for small screens -->
             <source 
-            srcset="images/small/tlumaczenia-wielojezyczne-polska-small.webp" 
+            srcset="/images/small/tlumaczenia-wielojezyczne-polska-small.webp" 
             type="image/webp">
 
             <!-- Fallback image (JPG) -->
             <img 
-            src="images/img/tlumaczenia-wielojezyczne-polska-fallback.jpg" 
+            src="/images/img/tlumaczenia-wielojezyczne-polska-fallback.jpg" 
             alt="Tłumaczenia wielojęzyczne oferowane przez biuro tłumaczeń w Polsce" 
             width="600" 
             height="400" 
@@ -346,18 +346,18 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
         <picture>
             <!-- Standard large image for wider viewports -->
             <source 
-            srcset="images/large/tlumacz-konsekutywny-poznan-large.webp" 
+            srcset="/images/large/tlumacz-konsekutywny-poznan-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
             <!-- Smaller image for smaller screens -->
             <source 
-            srcset="images/small/tlumacz-konsekutywny-poznan-small.webp" 
+            srcset="/images/small/tlumacz-konsekutywny-poznan-small.webp" 
             type="image/webp">
 
             <!-- Fallback JPG for browsers that don't support WebP -->
             <img 
-            src="images/img/tlumacz-konsekutywny-poznan-fallback.jpg" 
+            src="/images/img/tlumacz-konsekutywny-poznan-fallback.jpg" 
             alt="Tłumacz konsekutywny pracujący w Poznaniu podczas wydarzenia" 
             width="600" 
             height="400" 
@@ -425,9 +425,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
     <!-- Service Item -->
     <div class="service-item">
       <picture>
-        <source srcset="./images/small/tlumaczenia-wielojezyczne-polska-small.webp" type="image/webp">
+        <source srcset="/images/small/tlumaczenia-wielojezyczne-polska-small.webp" type="image/webp">
         <img 
-          src="./images/small/tlumaczenia-wielojezyczne-polska-small.jpg" 
+          src="/images/small/tlumaczenia-wielojezyczne-polska-small.jpg" 
           alt="Tłumaczenie konsekutywne w biurze tłumaczeń Szczecin" 
           loading="lazy"
           width="420"
@@ -449,9 +449,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
     <!-- Service Item -->
     <div class="service-item">
       <picture>
-        <source srcset="./images/small/balkany-small.webp" type="image/webp">
+        <source srcset="/images/small/balkany-small.webp" type="image/webp">
         <img 
-          src="./images/small/balkany-small.jpg" 
+          src="/images/small/balkany-small.jpg" 
           alt="Tłumaczenie symultaniczne kabinowe podczas konferencji w Szczecinie" 
           width="420" 
           height="580" 
@@ -473,9 +473,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
     <!-- Service Item -->
     <div class="service-item">
       <picture>
-        <source srcset="./images/small/dendro-small.webp" type="image/webp">
+        <source srcset="/images/small/dendro-small.webp" type="image/webp">
         <img 
-          src="./images/small/dendro-small.jpg" 
+          src="/images/small/dendro-small.jpg" 
           alt="Tłumaczenie online podczas spotkania biznesowego" 
           width="420" 
           height="580" 
@@ -580,9 +580,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="service-card">
       <picture>
-        <source srcset="./images/small/oswietlenie-led-biuro-tlumaczen.webp" type="image/webp">
+        <source srcset="/images/small/oswietlenie-led-biuro-tlumaczen.webp" type="image/webp">
         <img 
-          src="./images/small/oswietlenie-led-biuro-tlumaczen.jpg" 
+          src="/images/small/oswietlenie-led-biuro-tlumaczen.jpg" 
           alt="Oświetlenie konferencyjne - biuro tłumaczeń Szczecin" 
           width="420" 
           height="580" 
@@ -598,9 +598,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="service-card">
       <picture>
-        <source srcset="./images/small/kabina-symultaniczna.webp" type="image/webp">
+        <source srcset="/images/small/kabina-symultaniczna.webp" type="image/webp">
         <img 
-          src="./images/small/kabina-symultaniczna.jpg" 
+          src="/images/small/kabina-symultaniczna.jpg" 
           alt="System Tour Guide do tłumaczeń mobilnych - Szczecin" 
           width="420" 
           height="580" 
@@ -616,9 +616,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="service-card">
       <picture>
-        <source srcset="./images/small/naglosnienie-konferencji-eventow-Poznan.webp" type="image/webp">
+        <source srcset="/images/small/naglosnienie-konferencji-eventow-Poznan.webp" type="image/webp">
         <img 
-          src="./images/small/naglosnienie-konferencji-eventow-Poznan.jpg" 
+          src="/images/small/naglosnienie-konferencji-eventow-Poznan.jpg" 
           alt="Nagłośnienie konferencji i eventów - biuro tłumaczeń Szczecin" 
           width="420" 
           height="580" 
@@ -706,7 +706,7 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
+          src="/images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
           alt="Tłumacz symultaniczny podczas pracy" 
           width="250" 
           height="250" 
@@ -725,7 +725,7 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
+          src="/images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
           alt="Profesjonalny tłumacz symultaniczny języka angielskiego" 
           width="250" 
           height="250"
@@ -744,7 +744,7 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/pracownik-biura-tlumaczen.jpg" 
+          src="/images/small/pracownik-biura-tlumaczen.jpg" 
           alt="Koordynator w biurze tłumaczeń" 
           width="250" 
           height="250" 
@@ -784,9 +784,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/cena-tlumaczenia-symultanicznego.webp" type="image/webp">
+        <source srcset="/images/small/cena-tlumaczenia-symultanicznego.webp" type="image/webp">
         <img 
-          src="./images/small/cena-tlumaczenia-symultanicznego.jpg" 
+          src="/images/small/cena-tlumaczenia-symultanicznego.jpg" 
           alt="Tłumaczenia symultaniczne Szczecin - wycena i obsługa konferencji" 
           width="972" 
           height="729" 
@@ -818,9 +818,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/biuro-tlumaczen-symultaniczne.webp" type="image/webp">
+        <source srcset="/images/small/biuro-tlumaczen-symultaniczne.webp" type="image/webp">
         <img 
-          src="./images/small/biuro-tlumaczen-symultaniczne.jpg" 
+          src="/images/small/biuro-tlumaczen-symultaniczne.jpg" 
           alt="Kabina tłumaczeniowa i sprzęt audio - tłumaczenia symultaniczne Szczecin" 
           width="568" 
           height="598" 
@@ -846,9 +846,9 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/tlumaczenie-tour-guide.webp" type="image/webp">
+        <source srcset="/images/small/tlumaczenie-tour-guide.webp" type="image/webp">
         <img 
-          src="./images/small/tlumaczenie-tour-guide.jpg" 
+          src="/images/small/tlumaczenie-tour-guide.jpg" 
           alt="Tłumaczenia tour guide i mobilne systemy audio Szczecin" 
           loading="lazy">
       </picture>
@@ -932,11 +932,11 @@ $description = "Tłumaczenia symultaniczne Szczecin – biuro tłumaczeń ustnyc
   <picture class="clients__image">
     <!-- WebP Source -->
     <source 
-      srcset="./images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
+      srcset="/images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
       type="image/webp">
     <!-- JPG Fallback -->
     <img 
-      src="./images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
+      src="/images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
       alt="Tłumaczenia symultaniczne Szczecin – nasi klienci i realizacje" 
       width="1031"
       height="199"

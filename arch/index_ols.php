@@ -5,7 +5,7 @@
   <div class="wrapper">
     <a href="index.php" class="logo">Proling</a>
      <!-- <div class="site-header__logo">
-        <img src="images/index/logo.jpg" alt="Logo biura tłumaczeń Proling" />
+        <img src="/images/index/logo.jpg" alt="Logo biura tłumaczeń Proling" />
      </div> -->
     <div class="site-header__menu-content">
         <div class="site-header__menu-icon" aria-label="Toggle menu">
@@ -31,12 +31,12 @@
 <!-- HERO SECTION -->
 <section class="hero">
   <picture>
-    <source srcset="images/x-large/poznan_symultaniczne-large@2x.webp" type="image/webp" media="(min-width: 800px) and (min-resolution: 192dpi)" >
-    <source srcset="images/large/poznan_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)" >
-    <source srcset="images/small/poznan_symultaniczne-small.webp" type="image/webp" >
+    <source srcset="/images/x-large/poznan_symultaniczne-large@2x.webp" type="image/webp" media="(min-width: 800px) and (min-resolution: 192dpi)" >
+    <source srcset="/images/large/poznan_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)" >
+    <source srcset="/images/small/poznan_symultaniczne-small.webp" type="image/webp" >
     
     <!-- Fallback image for browsers that don't support WebP -->
-    <img src="images/index/poznan_symultaniczne.jpg" 
+    <img src="/images/index/poznan_symultaniczne.jpg" 
       alt="Tłumacz symultaniczny podczas konferencji w Poznaniu"
       width="600"
       height="400"
@@ -95,11 +95,11 @@
       <!-- Image Column -->
         <div class="image-column">
           <picture>
-            <source srcset="images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
-            <source srcset="images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
+            <source srcset="/images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
+            <source srcset="/images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
             <img 
              
-              src="images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
+              src="/images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
               alt="Tłumaczenie ustne w międzynarodowym biurze tłumaczeń"
               width="600" 
               height="400"
@@ -146,14 +146,14 @@
         <picture>
         <!-- Large WebP for wider screens -->
         <source 
-          srcset="images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
+          srcset="/images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
         <source 
-          srcset="images/small/kabiny_symultaniczne-small.webp" type="image/webp">
+          srcset="/images/small/kabiny_symultaniczne-small.webp" type="image/webp">
 
         <!-- JPG fallback -->
         <img 
          
-          src="images/img/kabiny_symultaniczne-fallback.jpg" 
+          src="/images/img/kabiny_symultaniczne-fallback.jpg" 
           alt="Kabiny do tłumaczenia symultanicznego na konferencji"
           width="600" 
           height="400"
@@ -170,18 +170,18 @@
         <picture>
           <!-- Standard large image for wider viewports -->
           <source 
-            srcset="images/large/kongres-symultaniczne-large.webp" 
+            srcset="/images/large/kongres-symultaniczne-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
           <!-- Smaller image for small screens -->
           <source 
-            srcset="images/small/kongres-symultaniczne-small.webp" 
+            srcset="/images/small/kongres-symultaniczne-small.webp" 
             type="image/webp">
 
           <!-- Fallback image (JPG) -->
           <img 
-            src="images/img/kongres-symultaniczne-fallback.jpg" 
+            src="/images/img/kongres-symultaniczne-fallback.jpg" 
             alt="Tłumacz symultaniczny podczas kongresu międzynarodowego" 
             width="600" 
             height="400" 
@@ -230,18 +230,18 @@
           
           <!-- Standard large image for wider viewports -->
           <source 
-            srcset="images/large/tlumaczenia-wielojezyczne-polska-large.webp" 
+            srcset="/images/large/tlumaczenia-wielojezyczne-polska-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
           <!-- Smaller image for small screens -->
           <source 
-            srcset="images/small/tlumaczenia-wielojezyczne-polska-small.webp" 
+            srcset="/images/small/tlumaczenia-wielojezyczne-polska-small.webp" 
             type="image/webp">
 
           <!-- Fallback image (JPG) -->
           <img 
-            src="images/img/tlumaczenia-wielojezyczne-polska-fallback.jpg" 
+            src="/images/img/tlumaczenia-wielojezyczne-polska-fallback.jpg" 
             alt="Tłumaczenia wielojęzyczne oferowane przez biuro tłumaczeń w Polsce" 
             width="600" 
             height="400" 
@@ -262,18 +262,18 @@
         <picture>
           <!-- Standard large image for wider viewports -->
           <source 
-            srcset="images/large/tlumacz-konsekutywny-poznan-large.webp" 
+            srcset="/images/large/tlumacz-konsekutywny-poznan-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
           <!-- Smaller image for smaller screens -->
           <source 
-            srcset="images/small/tlumacz-konsekutywny-poznan-small.webp" 
+            srcset="/images/small/tlumacz-konsekutywny-poznan-small.webp" 
             type="image/webp">
 
           <!-- Fallback JPG for browsers that don't support WebP -->
           <img 
-            src="images/img/tlumacz-konsekutywny-poznan-fallback.jpg" 
+            src="/images/img/tlumacz-konsekutywny-poznan-fallback.jpg" 
             alt="Tłumacz konsekutywny pracujący w Poznaniu podczas wydarzenia" 
             width="600" 
             height="400" 

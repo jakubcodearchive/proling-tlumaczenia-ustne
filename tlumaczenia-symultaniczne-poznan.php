@@ -57,7 +57,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
     </h3>
 
     <div class="wrapper--medium">
-        <img class="row__4-image" src="./images/small/balkany-small.webp" 
+        <img class="row__4-image" src="/images/small/balkany-small.webp" 
         alt="Biuro tłumaczeń wykonujące tłumaczenie symultaniczne we Bydgoszczy">
     </div>
   </div>
@@ -72,11 +72,11 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
       <!-- Image Column -->
         <div class="image-column">
           <picture>
-            <source srcset="images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
-            <source srcset="images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
+            <source srcset="/images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
+            <source srcset="/images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
             <img 
              
-              src="images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
+              src="/images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
               alt="Tłumaczenie ustne w międzynarodowym biurze tłumaczeń"
               width="600" 
               height="400"
@@ -118,13 +118,13 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
         <picture>
         <!-- Large WebP for wider screens -->
         <source 
-          srcset="images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
+          srcset="/images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
         <source 
-          srcset="images/small/kabiny_symultaniczne-small.webp" type="image/webp">
+          srcset="/images/small/kabiny_symultaniczne-small.webp" type="image/webp">
 
         <!-- JPG fallback -->
         <img 
-          src="images/img/kabiny_symultaniczne-fallback.jpg" 
+          src="/images/img/kabiny_symultaniczne-fallback.jpg" 
           alt="Kabiny do tłumaczenia symultanicznego na konferencji"
           width="600" 
           height="400"
@@ -141,18 +141,18 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
         <picture>
           <!-- Standard large image for wider viewports -->
           <source 
-            srcset="images/large/kongres-symultaniczne-large.webp" 
+            srcset="/images/large/kongres-symultaniczne-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
           <!-- Smaller image for small screens -->
           <source 
-            srcset="images/small/kongres-symultaniczne-small.webp" 
+            srcset="/images/small/kongres-symultaniczne-small.webp" 
             type="image/webp">
 
           <!-- Fallback image (JPG) -->
           <img 
-            src="images/img/kongres-symultaniczne-fallback.jpg" 
+            src="/images/img/kongres-symultaniczne-fallback.jpg" 
             alt="Tłumacz symultaniczny podczas kongresu międzynarodowego" 
             width="600" 
             height="400" 
@@ -206,7 +206,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
     <!-- Service Item -->
     <div class="service-item">
       <img  
-        src="./images/poznan-symultaniczne/tlumaczenia-symultaniczne-poznan.webp"  
+        src="/images/poznan-symultaniczne/tlumaczenia-symultaniczne-poznan.webp"  
         alt="Tłumaczenia symultaniczne Poznań podczas międzynarodowej konferencji"  
         loading="lazy" width="600" height="400">
 
@@ -219,7 +219,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
     <!-- Service Item -->
     <div class="service-item">
       <img  
-        src="./images/poznan-symultaniczne/tlumaczenia-symultaniczne-angielski-poznan.webp"  
+        src="/images/poznan-symultaniczne/tlumaczenia-symultaniczne-angielski-poznan.webp"  
         alt="Profesjonalne tłumaczenia symultaniczne angielski Poznań podczas kongresu branżowego"  
         loading="lazy" width="600" height="400">
 
@@ -232,7 +232,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
     <!-- Service Item -->
     <div class="service-item">
       <img  
-        src="./images/poznan-symultaniczne/tlumaczenia-symultaniczne-niemiecki-poznan.webp"  
+        src="/images/poznan-symultaniczne/tlumaczenia-symultaniczne-niemiecki-poznan.webp"  
         alt="Tłumaczenia symultaniczne niemiecki Poznań w trakcie konferencji technicznej"  
         loading="lazy" width="600" height="400">
 
@@ -245,7 +245,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
     <!-- Service Item -->
     <div class="service-item">
       <img  
-        src="./images/poznan-symultaniczne/tlumacz-symultaniczny-poznan.webp"  
+        src="/images/poznan-symultaniczne/tlumacz-symultaniczny-poznan.webp"  
         alt="Tłumacz symultaniczny Poznań pracujący w kabinie tłumaczeniowej podczas kongresu"  
         loading="lazy" width="600" height="400">
 
@@ -350,9 +350,9 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/cena-tlumaczenia-symultanicznego.webp" type="image/webp">
+        <source srcset="/images/small/cena-tlumaczenia-symultanicznego.webp" type="image/webp">
         <img 
-          src="./images/small/cena-tlumaczenia-symultanicznego.jpg" 
+          src="/images/small/cena-tlumaczenia-symultanicznego.jpg" 
           alt="Nagłośnienie konferencji i eventów Poznań" 
           width="972" 
           height="729" 
@@ -401,9 +401,9 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/biuro-tlumaczen-symultaniczne.webp" type="image/webp">
+        <source srcset="/images/small/biuro-tlumaczen-symultaniczne.webp" type="image/webp">
         <img 
-          src="./images/small/biuro-tlumaczen-symultaniczne.jpg" 
+          src="/images/small/biuro-tlumaczen-symultaniczne.jpg" 
           alt="Konferencja międzynarodowa z tłumaczeniem symultanicznym w Poznaniu" 
           width="568" 
           height="598" 
@@ -455,11 +455,11 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
       <!-- Image Column -->
         <div class="image-column">
           <picture>
-            <source srcset="images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
-            <source srcset="images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
+            <source srcset="/images/large/biuro-tlumaczen-miedzynarodowe-large.webp" type="image/webp" media="(min-width: 800px)">
+            <source srcset="/images/small/biuro-tlumaczen-miedzynarodowe-small.webp" type="image/webp">
             <img 
              
-              src="images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
+              src="/images/img/biuro-tlumaczen-miedzynarodowe-fallback.jpg" 
               alt="Tłumaczenia symultaniczne Poznań podczas kongresu naukowego"  
               width="600" 
               height="400"
@@ -549,13 +549,13 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
         <picture>
         <!-- Large WebP for wider screens -->
         <source 
-          srcset="images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
+          srcset="/images/large/kabiny_symultaniczne-large.webp" type="image/webp" media="(min-width: 800px)">
         <source 
-          srcset="images/small/kabiny_symultaniczne-small.webp" type="image/webp">
+          srcset="/images/small/kabiny_symultaniczne-small.webp" type="image/webp">
 
         <!-- JPG fallback -->
         <img 
-          src="images/img/kabiny_symultaniczne-fallback.jpg" 
+          src="/images/img/kabiny_symultaniczne-fallback.jpg" 
           alt="Kabiny do tłumaczenia symultanicznego na konferencji"
           width="600" 
           height="400"
@@ -572,18 +572,18 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
         <picture>
           <!-- Standard large image for wider viewports -->
           <source 
-            srcset="images/large/kongres-symultaniczne-large.webp" 
+            srcset="/images/large/kongres-symultaniczne-large.webp" 
             type="image/webp" 
             media="(min-width: 800px)">
 
           <!-- Smaller image for small screens -->
           <source 
-            srcset="images/small/kongres-symultaniczne-small.webp" 
+            srcset="/images/small/kongres-symultaniczne-small.webp" 
             type="image/webp">
 
           <!-- Fallback image (JPG) -->
           <img 
-            src="images/img/kongres-symultaniczne-fallback.jpg" 
+            src="/images/img/kongres-symultaniczne-fallback.jpg" 
             alt="Tłumacz symultaniczny podczas kongresu międzynarodowego" 
             width="600" 
             height="400" 
@@ -618,7 +618,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
       <!-- Image Column -->
       <div class="image-column">
       <img  
-        src="./images/poznan-symultaniczne/kabiny-tlumaczeniowe-poznan.webp"  
+        src="/images/poznan-symultaniczne/kabiny-tlumaczeniowe-poznan.webp"  
         alt="Kabiny tłumaczeniowe używane podczas konferencji w Poznaniu"  
         loading="lazy" width="600" height="400">
       </div>  
@@ -671,7 +671,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
+          src="/images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
           alt="Tłumaczenie symulaniczne" 
           width="250" 
           height="250" 
@@ -686,7 +686,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
      <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
+          src="/images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
           alt="Tłumacz symultaniczny" 
           width="250" 
           height="250" 
@@ -701,7 +701,7 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/pracownik-biura-tlumaczen.jpg" 
+          src="/images/small/pracownik-biura-tlumaczen.jpg" 
           alt="Biuro tłumaczeń w Poznaniu" 
           width="250" 
           height="250" 
@@ -720,11 +720,11 @@ $description = "Tłumaczenia symultaniczne Poznań – doświadczeni tłumacze s
   <picture class="clients__image">
     <!-- WebP Source -->
     <source 
-      srcset="./images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
+      srcset="/images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
       type="image/webp">
     <!-- JPG Fallback -->
     <img 
-      src="./images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
+      src="/images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
       alt="Tłumaczenie konsekutywne w biurze tłumaczeń Poznań"
       width="1031"
       height="199"

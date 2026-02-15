@@ -63,7 +63,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
     <div class="wrapper--medium wrapper--medium--one-column-image
                 wrapper--medium--one-column-image--margin-top">
       <img  
-        src="./images/bydgoszcz/tlumaczenia-symultaniczne-bydgoszcz.webp"  
+        src="/images/bydgoszcz/tlumaczenia-symultaniczne-bydgoszcz.webp"  
         alt="Tłumaczenia symultaniczne w Bydgoszczy podczas międzynarodowej konferencji"  
         loading="lazy" width="600" height="400">
     </div>
@@ -110,7 +110,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
 
         <div class="image-column">
           <img  
-            src="./images/bydgoszcz/tlumaczenia-symultaniczne-konferencja.webp"  
+            src="/images/bydgoszcz/tlumaczenia-symultaniczne-konferencja.webp"  
             alt="Tłumaczenia symultaniczne podczas konferencji międzynarodowej w Bydgoszczy"  
             loading="lazy" width="600" height="400">
         </div>
@@ -158,7 +158,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
       <!-- Image Column -->
       <div class="image-column">
        <img  
-          src="./images/bydgoszcz/biuro-tlumaczen-bydgoszcz.webp"  
+          src="/images/bydgoszcz/biuro-tlumaczen-bydgoszcz.webp"  
           alt="Profesjonalne biuro tłumaczeń w Bydgoszczy oferujące tłumaczenia ustne i pisemne"  
           loading="lazy" width="600" height="400">
       </div>
@@ -169,7 +169,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
       <!-- Image Column -->
       <div class="image-column">
         <img  
-            src="./images/bydgoszcz/tlumacz-przy-pracy.webp"  
+            src="/images/bydgoszcz/tlumacz-przy-pracy.webp"  
             alt="Tłumacz symultaniczny przy pracy w kabinie tłumaczeniowej"  
             loading="lazy" width="600" height="400"><picture>
       </div>  
@@ -232,7 +232,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
     <!-- Service Item 1 -->
     <div class="service-item">
       <img  
-        src="./images/bydgoszcz/tlumacz-symultaniczny-bydgoszcz.webp"  
+        src="/images/bydgoszcz/tlumacz-symultaniczny-bydgoszcz.webp"  
         alt="Doświadczony tłumacz symultaniczny z Bydgoszczy podczas tłumaczenia kongresu"  
         loading="lazy" width="600" height="400">
 
@@ -248,7 +248,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
     <!-- Service Item 2 -->
     <div class="service-item">
       <img  
-        src="./images/bydgoszcz/biuro-tlumaczen-konferencje.webp"  
+        src="/images/bydgoszcz/biuro-tlumaczen-konferencje.webp"  
         alt="Biuro tłumaczeń w Bydgoszczy obsługujące konferencje i spotkania biznesowe"  
         loading="lazy" width="600" height="400">
 
@@ -265,7 +265,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
     <!-- Service Item 3 -->
     <div class="service-item">
       <img  
-        src="./images/bydgoszcz/kabiny-tlumaczeniowe.webp"  
+        src="/images/bydgoszcz/kabiny-tlumaczeniowe.webp"  
         alt="Kabiny tłumaczeniowe podczas konferencji w Bydgoszczy"  
         loading="lazy" width="600" height="400">
 
@@ -281,7 +281,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
     <!-- Service Item 4 -->
     <div class="service-item">
       <img  
-        src="./images/bydgoszcz/tlumacz-angielski.webp"  
+        src="/images/bydgoszcz/tlumacz-angielski.webp"  
         alt="Tłumacz symultaniczny języka angielskiego z Bydgoszczy podczas wydarzenia branżowego"  
         loading="lazy" width="600" height="400">
 
@@ -359,7 +359,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
+          src="/images/small/dobry-tlumacz-symultaniczny-Poznan.jpg" 
           alt="Tłumaczenie symulaniczne" 
           width="250" 
           height="250" 
@@ -374,7 +374,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
      <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
+          src="/images/small/tlumacz-symultaniczny-jezyka-angielskiego.jpg" 
           alt="Tłumacz symultaniczny" 
           width="250" 
           height="250" 
@@ -389,7 +389,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
       <div class="image-and-name">
         <img 
           class="head-picture"
-          src="./images/small/pracownik-biura-tlumaczen.jpg" 
+          src="/images/small/pracownik-biura-tlumaczen.jpg" 
           alt="Biuro tłumaczeń w Poznaniu" 
           width="250" 
           height="250" 
@@ -438,7 +438,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
 
     <div class="project-image">
       <img  
-      src="./images/bydgoszcz/tlumacz-niemiecki-bydgoszcz.webp"  
+      src="/images/bydgoszcz/tlumacz-niemiecki-bydgoszcz.webp"  
       alt="Tłumacz języka niemieckiego z Bydgoszczy pracujący podczas konferencji"  
       loading="lazy" width="600" height="400">
     </div>
@@ -478,9 +478,9 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/biuro-tlumaczen-symultaniczne.webp" type="image/webp">
+        <source srcset="/images/small/biuro-tlumaczen-symultaniczne.webp" type="image/webp">
         <img 
-          src="./images/small/biuro-tlumaczen-symultaniczne.jpg" 
+          src="/images/small/biuro-tlumaczen-symultaniczne.jpg" 
           alt="Nagłośnienie konferencji i eventów - Bydgoszcz" 
           width="568" 
           height="598" 
@@ -541,9 +541,9 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
 
     <div class="project-image">
       <picture>
-        <source srcset="./images/small/tlumaczenie-tour-guide.webp" type="image/webp">
+        <source srcset="/images/small/tlumaczenie-tour-guide.webp" type="image/webp">
         <img 
-          src="./images/small/tlumaczenie-tour-guide.jpg" 
+          src="/images/small/tlumaczenie-tour-guide.jpg" 
           alt="Nagłośnienie konferencji i eventów Poznań" 
           width="" 
           height="" 
@@ -603,7 +603,7 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
 
     <div class="project-image">
       <img  
-        src="./images/bydgoszcz/kongres-tlumaczenia-symultaniczne.webp"  
+        src="/images/bydgoszcz/kongres-tlumaczenia-symultaniczne.webp"  
         alt="Obsługa tłumaczeniowa kongresu w Bydgoszczy – tłumaczenia symultaniczne"  
         loading="lazy" width="600" height="400">
     </div>
@@ -616,11 +616,11 @@ $description = "Biuro tłumaczeń Bydgoszcz – specjalizujemy się w tłumaczen
   <picture class="clients__image">
     <!-- WebP Source -->
     <source 
-      srcset="./images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
+      srcset="/images/large/klienci-biura-tlumaczen-w-Poznaniu.webp" 
       type="image/webp">
     <!-- JPG Fallback -->
     <img 
-      src="./images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
+      src="/images/large/klienci-biura-tlumaczen-w-Poznaniu.jpg" 
       alt="Tłumaczenie konsekutywne w biurze tłumaczeń Poznań"
       width="1031"
       height="199"

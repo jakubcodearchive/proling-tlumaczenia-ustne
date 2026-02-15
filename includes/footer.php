@@ -3,7 +3,7 @@
   <div class="contact-middle">
     <div class="/footer-logo">
       <!-- Placeholder SVG Logo -->
-      <img class="footer-logo" src="./images/index/logo.jpg"/>
+      <img class="footer-logo" src="/images/index/logo.jpg"/>
     </div>
 
     <div class="footer-socials">
